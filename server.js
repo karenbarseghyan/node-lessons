@@ -9,6 +9,7 @@ const server = app.listen(3000, () => console.log('Server ready'))
 
 process.on('SIGTERM', () => {
     server.close(() => {
-        console.log('Terminated')
+        console.log('Process terminated')
     })
 })
+process.exit();
