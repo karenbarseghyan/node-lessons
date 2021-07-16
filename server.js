@@ -1,15 +1,32 @@
-const express = require('express')
-const app = express()
+const {EventEmitter} = require('events');
 
-app.get('/', (req, res) => {
-    res.send('Hi!')
+const logger = new EventEmitter();
+
+const users = [];
+const messages = [];
+
+logger.on('message', (...msg)=> {
+    messages.push(msg);
+    console.log(`New message [${msg}]`);
 })
 
-const server = app.listen(3000, () => console.log('Server ready'))
-
-process.on('SIGTERM', () => {
-    server.close(() => {
-        console.log('Process terminated')
-    })
+logger.on('login', (...name)=> {
+    users.push(name);
+    console.log(`New user [${name}]`);
 })
-process.exit();
+
+logger.on('getUsers', ()=> {
+    users[0].forEach((item)=>console.log(item));
+})
+
+logger.on('getMessages', ()=> {
+    messages[0].forEach((item)=>console.log(item));
+})
+
+logger.emit('message','Hello World', 'Good-By');
+logger.emit('login','Karen', "Ruben");
+logger.emit('getUsers');
+logger.emit('getMessages');
+
+const argv = require('minimist')(process.argv.slice(2));
+console.log(argv);

@@ -1,0 +1,27 @@
+{
+  "name": "lessons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "hello": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karenbarseghyan/node-lessons.git"
+  },
+  "author": "Karen Barseghyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karenbarseghyan/node-lessons/issues"
+  },
+  "homepage": "https://github.com/karenbarseghyan/node-lessons#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.2"
+  }
+}
