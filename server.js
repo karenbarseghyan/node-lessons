@@ -27,3 +27,6 @@ logger.emit('message','Hello World', 'Good-By');
 logger.emit('login','Karen', "Ruben");
 logger.emit('getUsers');
 logger.emit('getMessages');
+
+const argv = require('minimist')(process.argv.slice(2));
+console.log(argv);
