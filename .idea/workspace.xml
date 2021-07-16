@@ -36,6 +36,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.16.0" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,6 +51,8 @@
       <option name="presentableId" value="Default" />
       <updated>1626000386011</updated>
       <workItem from="1626000388149" duration="901000" />
+      <workItem from="1626216124907" duration="1359000" />
+      <workItem from="1626257109861" duration="7300000" />
     </task>
     <servers />
   </component>
@@ -65,5 +70,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="301" y="75" key="SettingsEditor" timestamp="1626165074357">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1626165074357" />
   </component>
 </project>
