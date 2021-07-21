@@ -14,7 +14,7 @@
 
 const { fork } = require('child_process');
 
-const forked = fork('hmw4.js');
+const forked = fork('hmw4Child.js');
 
 forked.on('message', (msg) => {
     console.log('Message from child', msg);
