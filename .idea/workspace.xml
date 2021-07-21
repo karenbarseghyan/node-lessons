@@ -37,8 +37,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.16.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Karen\WebstormProjects\node-lessons" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -53,6 +59,10 @@
       <workItem from="1626000388149" duration="901000" />
       <workItem from="1626216124907" duration="1359000" />
       <workItem from="1626257109861" duration="7300000" />
+      <workItem from="1626602352739" duration="10056000" />
+      <workItem from="1626648788107" duration="644000" />
+      <workItem from="1626689607287" duration="3274000" />
+      <workItem from="1626734696675" duration="5000" />
     </task>
     <servers />
   </component>
@@ -72,9 +82,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="301" y="75" key="SettingsEditor" timestamp="1626165074357">
+    <state x="301" y="75" key="SettingsEditor" timestamp="1626475225752">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1626165074357" />
+    <state x="301" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1626475225752" />
   </component>
 </project>
