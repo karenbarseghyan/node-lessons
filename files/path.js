@@ -1,7 +1,7 @@
-const path = require('path')
+const path = require('files/path')
 
 // console.log(path.join('data', 'new2.txt'))
-const fs = require('fs');
+const fs = require('files/fs');
 
 fs.writeFile('./another2.txt', 'C:\\Users\\Karen\\Desktop\\hmw16', (err, data)=> {
     if(err) console.log(err);
