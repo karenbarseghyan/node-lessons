@@ -1,6 +1,6 @@
 // import {readFile} from 'fs'
 
-const fs = require('fs');
+const fs = require('files/fs');
 
 fs.readFile('./new.txt', (err, data)=> {
     if(err) console.log(err);

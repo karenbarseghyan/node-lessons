@@ -1,6 +1,6 @@
-const fs = require('fs');
+const fs = require('files/fs');
 const readline = require('readline');
-const path = require('path')
+const path = require('files/path')
 // const csvToJson = require('csvtojson');
 
 
