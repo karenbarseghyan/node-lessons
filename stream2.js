@@ -8,7 +8,11 @@
 const fs = require("fs")
 const zlib = require("zlib")
 
-const input = fs.createReadStream('./hello.html')
+/*const input = fs.createReadStream('./hell.html')
 const output = fs.createWriteStream("hello.gzip")
 
-input.pipe(zlib.createGzip()).pipe(output)
+input.pipe(zlib.createGzip()).pipe(output)*/
+const input = fs.createReadStream('hello.gzip')
+const output = fs.createWriteStream("unzip.txt")
+
+input.pipe(zlib.createUnzip()).pipe(output)
